@@ -8,6 +8,7 @@
     <RootNamespace>html2pdf_win_csharp</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="IronPdf" Version="2021.3.1" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.0.12" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.0.1" OutputItemType="Analyzer" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.0.0" />
